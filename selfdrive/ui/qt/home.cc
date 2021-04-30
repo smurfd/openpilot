@@ -46,9 +46,9 @@ HomeWindow::HomeWindow(QWidget* parent) : QWidget(parent) {
   onRoadLayout->addWidget(onroad);
   onRoadLayout->addWidget(map_window);
 
-  QWidget *onRoadWidget = new QWidget;
-  onRoadWidget->setLayout(onRoadLayout);
-  slayout->addWidget(onRoadWidget);
+  onroad_wrapper = new QWidget;
+  onroad_wrapper->setLayout(onRoadLayout);
+  slayout->addWidget(onroad_wrapper);
   QObject::connect(this, &HomeWindow::update, onroad, &OnroadWindow::update);
   QObject::connect(this, &HomeWindow::offroadTransitionSignal, onroad, &OnroadWindow::offroadTransition);
 
@@ -63,7 +63,7 @@ void HomeWindow::offroadTransition(bool offroad) {
   if (offroad) {
     slayout->setCurrentWidget(home);
   } else {
-    slayout->setCurrentWidget(onroad);
+    slayout->setCurrentWidget(onroad_wrapper);
   }
   sidebar->setVisible(offroad);
 }

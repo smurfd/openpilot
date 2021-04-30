@@ -60,5 +60,6 @@ private:
   Sidebar *sidebar;
   OffroadHome *home;
   OnroadWindow *onroad;
+  QWidget *onroad_wrapper;
   QStackedLayout *slayout;
 };
