@@ -1,3 +1,4 @@
+#include "selfdrive/hardware/hw.h"
 #include "selfdrive/modeld/models/dmonitoring.h"
 
 #include <string.h>
@@ -7,7 +8,6 @@
 #include "selfdrive/common/mat.h"
 #include "selfdrive/common/params.h"
 #include "selfdrive/common/timing.h"
-#include "selfdrive/hardware/hw.h"
 
 #define MODEL_WIDTH 320
 #define MODEL_HEIGHT 640
