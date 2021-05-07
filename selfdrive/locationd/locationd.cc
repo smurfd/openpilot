@@ -1,7 +1,7 @@
-#include <sys/time.h>
-#include <sys/resource.h>
+#include "selfdrive/locationd/locationd.h"
 
-#include "locationd.h"
+#include <sys/resource.h>
+#include <sys/time.h>
 
 using namespace EKFS;
 using namespace Eigen;
