@@ -1,8 +1,8 @@
-#include <unistd.h>
-#include <zmq.h>
-
 #include <cstdio>
 #include <cstdlib>
+#include <unistd.h>
+
+#include <zmq.h>
 
 #include "selfdrive/common/timing.h"
 #include "selfdrive/common/util.h"

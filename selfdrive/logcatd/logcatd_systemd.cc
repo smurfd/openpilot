@@ -1,10 +1,10 @@
-#include <systemd/sd-journal.h>
-
 #include <cassert>
 #include <csignal>
 #include <iostream>
 #include <map>
 #include <string>
+
+#include <systemd/sd-journal.h>
 
 #include "json11.hpp"
 
