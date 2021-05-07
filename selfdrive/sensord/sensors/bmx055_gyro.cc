@@ -1,4 +1,4 @@
-#include "bmx055_gyro.h"
+#include "selfdrive/sensord/sensors/bmx055_gyro.h"
 
 #include <cassert>
 #include <cmath>

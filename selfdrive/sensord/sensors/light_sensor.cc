@@ -1,4 +1,4 @@
-#include "light_sensor.h"
+#include "selfdrive/sensord/sensors/light_sensor.h"
 
 #include <iostream>
 #include <string>

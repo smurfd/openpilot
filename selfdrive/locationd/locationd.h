@@ -1,9 +1,10 @@
 #pragma once
 
-#include <eigen3/Eigen/Dense>
 #include <fstream>
 #include <memory>
 #include <string>
+
+#include <eigen3/Eigen/Dense>
 
 #include "cereal/messaging/messaging.h"
 #include "common/transformations/coordinates.hpp"

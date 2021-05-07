@@ -1,4 +1,4 @@
-#include "bmx055_temp.h"
+#include "selfdrive/sensord/sensors/bmx055_temp.h"
 
 #include <cassert>
 

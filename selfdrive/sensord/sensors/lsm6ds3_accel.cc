@@ -1,4 +1,4 @@
-#include "lsm6ds3_accel.h"
+#include "selfdrive/sensord/sensors/lsm6ds3_accel.h"
 
 #include <cassert>
 

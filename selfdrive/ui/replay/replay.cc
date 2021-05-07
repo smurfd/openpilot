@@ -1,4 +1,4 @@
-#include "replay.h"
+#include "selfdrive/ui/replay/replay.h"
 #include "selfdrive/hardware/hw.h"
 
 Replay::Replay(QString route_, int seek) : route(route_) {

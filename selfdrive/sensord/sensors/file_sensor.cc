@@ -1,4 +1,4 @@
-#include "file_sensor.h"
+#include "selfdrive/sensord/sensors/file_sensor.h"
 
 #include <iostream>
 #include <string>

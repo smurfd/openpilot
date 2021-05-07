@@ -1,4 +1,4 @@
-#include "i2c_sensor.h"
+#include "selfdrive/sensord/sensors/i2c_sensor.h"
 
 #include <iostream>
 
