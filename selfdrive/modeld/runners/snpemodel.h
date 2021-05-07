@@ -10,7 +10,7 @@
 #include <SNPE/SNPEBuilder.hpp>
 #include <SNPE/SNPEFactory.hpp>
 
-#include "runmodel.h"
+#include "selfdrive/modeld/runners/runmodel.h"
 
 #define USE_CPU_RUNTIME 0
 #define USE_GPU_RUNTIME 1

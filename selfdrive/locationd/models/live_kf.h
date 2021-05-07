@@ -7,7 +7,7 @@
 #include <eigen3/Eigen/Core>
 #include <eigen3/Eigen/Dense>
 
-#include "generated/live_kf_constants.h"
+#include "selfdrive/locationd/models/generated/live_kf_constants.h"
 #include "rednose/helpers/ekf_sym.h"
 
 #define EARTH_GM 3.986005e14  // m^3/s^2 (gravitational constant * mass of earth)

@@ -1,6 +1,4 @@
 #include <assert.h>
-#include <cutils/log.h>
-#include <hardware/sensors.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,6 +12,9 @@
 
 #include <map>
 #include <set>
+
+#include <hardware/sensors.h>
+#include <cutils/log.h>
 
 #include "cereal/messaging/messaging.h"
 #include "selfdrive/common/swaglog.h"
