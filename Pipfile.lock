@@ -275,16 +275,13 @@
         },
         "libusb1": {
             "hashes": [
-                "sha256:27aec6aa1ff9ca845d0035023f3cf39710afac56903c51cd96a95404d064189e",
-                "sha256:2dff68819350bf8a8c157c7fa40d3efc741cb57868687d1714c8125ee99e8ac8",
-                "sha256:8ee4a963d4ecc20d9f4543b9151729c9cc9a229c2f9119e12bff762e84d8859f",
-                "sha256:a323588902fbd3693f8fddd7eac016700b24116c31b00756b9f52cf06c2a6629",
-                "sha256:b4f25a2d66f62ec740edba3597038a7e9cd45b43456acfdb7a2bca8c2ad4aa30",
-                "sha256:c19d49136ef262474dbbac8bd40a2c4b65660220571de8564efec631c56bdc09",
-                "sha256:c3dd4df43b5c38f65bf599413810d021f5f98396c4b6f66765fb98193aca11b0"
+                "sha256:4ee9b0a55f8bd0b3ea7017ae919a6c1f439af742c4a4b04543c5fd7af89b828c",
+                "sha256:77a06ecfb3d002d7c2ce369e28d0138b292fe8db8a3d102b73fda231a716dd35",
+                "sha256:9d9f16e2c199cab91f48ead585d3f5ec7e8e4be428a25ddfed22abf786fa9b3a",
+                "sha256:bc7874302565721f443a27d8182fcc7152e5b560523f12f1377b130f473e4a0c"
             ],
             "index": "pypi",
-            "version": "==1.9.2"
+            "version": "==3.1.0"
         },
         "markupsafe": {
             "hashes": [
